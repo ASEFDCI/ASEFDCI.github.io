@@ -1,0 +1,486 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+
+
+
+body
+{
+    font-family: Arial, sans-serif;
+     font-size: 15px; 
+     margin: 0px;
+     padding: 0px;
+     background: linear-gradient(to bottom, orange, green);
+     overflow-x: hidden ;
+     
+
+}
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+header
+{
+    
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+#logo
+{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#logo img
+{
+    display: inline-flex;
+    width: 180px;
+    height: 100px;
+    
+}
+
+
+h1
+{
+    font-family: italic , serif;
+    font-size: 45px;
+    color: #444;
+
+   
+   
+}
+h2
+{
+    color: #444;
+    font-size: 55px;
+}
+h3
+{
+    font-size: 30px;
+    color: #444;
+}
+h4
+{
+    font-size: 24px;
+    color: #444; 
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+a:hover
+{
+    color:  #FF0000;
+}
+.wrapper
+{
+    position: relative;
+    width: 700px;
+    margin: 0 auto;               
+    padding: 0 0px; 
+    margin-right: 0px;
+   
+    
+}
+
+
+header
+{
+    height: 120px;
+}
+.clear
+{
+    clear: both; /*espacer la premiere section de la suivante */
+}
+
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+header h1
+{
+    float: left;
+    margin-top: 32px;
+    display: inline-block;
+   
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+header nav ul li
+{
+    float: left;
+    display: inline-block; /*ils sont sur la meme ligne*/
+    margin-bottom: 20px;
+}
+header nav ul li a
+{
+    text-transform: uppercase; /*les textes en lien sont en majuscule*/
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#point
+{
+    display: inline-block;
+
+}
+
+
+#first-image
+{
+    height: 580px;
+    background: url(images/first.jpg) right;
+    width: 900px;
+    margin-left: 10px;
+    border-left: 0px;
+   
+}
+
+#first-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+
+    margin-bottom: 20px;
+}
+.button
+{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background: #FF0000;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto; /* 0= en haut et en bas pas de marge et auto= meme mesure a gauche et a droite */
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+.button:hover
+{
+    background: #02b8dd;
+}
+
+#steps ul
+{
+    margin: 80px 0;
+}
+#steps ul li
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+#steps h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+#steps p
+{
+   margin-bottom: 20px; 
+}
+#steps-1
+{
+  background: url(images/steps-icon-1.png) no-repeat top center; no
+}
+#steps-2
+{
+  background: url(images/steps-icon-2.png) no-repeat top center;  
+}
+#steps-3
+{
+  background: url(images/steps-icon-3.png) no-repeat top center;    
+}
+
+
+
+.overlay
+{
+    
+    
+    height: 590%;
+    width: 100px;
+    padding: 20px;
+    border-radius: 16px 0 0 16px;
+    text-align: center;
+}    
+
+
+#possibilities p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+aside images
+{
+    margin-right: 5px;
+}
+
+aside, h1
+{
+    font-family: italic, Arial, sans-serif;
+    font-size: 1.5em;
+} 
+
+aside, p{
+    font-family: italic,Aial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    box-sizing: content-box;
+    width: 100%;
+}
+#images
+{
+    text-align: justify;
+    float: left;
+}
+#images1
+{
+    text-align: center;
+    float: right;
+}
+
+
+div#galerie
+{
+  width: 410px ;
+  background: #eed ;
+  border: 1px solid #dcb ;
+  padding: 15px ;
+  padding-right: 100px;
+  margin: 15px 30px ;
+  margin-left: 10px;
+  text-align: center ;
+  font: 0.9em Georgia, serif ;
+}
+
+ul#galerie_mini
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none ;
+
+}
+
+ul#galerie_mini li
+{
+  float: left ;
+
+
+
+}
+
+ul#galerie_mini li a img
+{
+  margin: 2px 1px ;
+  border: 1px solid #dcb ;
+
+
+
+}
+
+dl#foto
+{
+  clear: both ;
+  margin: 0 auto ;
+}
+
+dl#foto dt
+{
+  font: italic 2.5em Georgia, serif ;
+  color: #dcb ;
+}
+
+dl#foto dd
+{
+  margin: 0 ;
+}
+
+dl#foto img
+{
+  border: 1px solid #dcb ;
+}
+
+
+
+
+.foto5{
+    position: relative;
+    right: -105px;
+    height: -5px;
+    top: -138px;
+    height: 150px;
+}
+.foto6{
+    position: relative;
+    bottom: -100px;
+    top: -10px;
+
+}
+.foto7{
+    position: relative;
+    bottom: -150px;
+    right: -270px;
+    top: -150px;
+
+}
+.foto8{
+    position: relative;
+    right: -85px ;
+    top: -150px;
+    margin-left: 35px;
+
+}
+.foto9{
+    position: relative;
+    top: -150px;
+    
+}
+
+
+
+#contact
+{
+   padding: 60px 0;
+   text-align: center;
+   margin: 800px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #02b8dd;
+    padding-bottom: 20px;
+}
+form
+{
+    margin: 60px 0 20px 0;
+   
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-2
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+    margin-left: -20px;
+}
+.button-2:hover
+{
+    color: #fff;
+    background-color: #444;
+   
+}
+
+section#contact{
+    background-color: white;
+    margin-right: -100px;
+    margin-left: -150px;
+    margin-bottom: 500px;
+    margin-top: 1500px;
+    text-align: center;
+  
+    position: relative;
+}
+
+.foot{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0px;
+
+}
+
+footer
+{
+    height: 400px;
+    background-color: #444;
+    margin: 800px;
+    margin-top: -600px;
+    margin-right: -100px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+.point{
+    position: relative;
+    margin-left: 20px;
+    
+
+}
+
+.elef{
+    
+    width: 800px;
+    height: 800px;
+    margin-top: 500px;
+
+}
